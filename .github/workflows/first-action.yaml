@@ -9,4 +9,6 @@ jobs:
       - name: Print goodbye
         run: |
           echo "Goodbye, World!"
-      -   echo "This is a test"
+      - name: Print test
+        run: |
+          echo "This is a test"
